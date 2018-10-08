@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Comment from './Comment';
+import SplitPane from './SplitPane';
+import SignUpDialog from './SignUpDialog';
 
 class App extends Component {
   constructor(props) {
@@ -35,6 +37,8 @@ class App extends Component {
     return (
       <div className="App">
         {comments}
+        <SplitPane left={<div>left</div>} right={<div>right</div>} />
+        <SignUpDialog />
       </div>
     );
   }

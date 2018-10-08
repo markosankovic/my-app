@@ -13,6 +13,7 @@ import EssayForm from './EssayForm';
 import FlavorForm from './FlavorForm';
 import Reservation from './Reservation';
 import Calculator from './Calculator';
+import WelcomeDialog from './WelcomeDialog';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<LogingControl />, document.getElementById('loginControl'));
@@ -27,6 +28,7 @@ ReactDOM.render(<EssayForm />, document.getElementById('essayForm'));
 ReactDOM.render(<FlavorForm />, document.getElementById('flavorForm'));
 ReactDOM.render(<Reservation />, document.getElementById('reservation'));
 ReactDOM.render(<Calculator />, document.getElementById('calculator'));
+ReactDOM.render(<WelcomeDialog />, document.getElementById('welcomeDialog'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

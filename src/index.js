@@ -7,6 +7,7 @@ import Toggle from './Toggle';
 import LogingControl from './LoginControl';
 import Mailbox from './Mailbox';
 import Page from './Page';
+import NumberList from './NumberList';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<LogingControl />, document.getElementById('loginControl'));
@@ -15,6 +16,7 @@ ReactDOM.render(<Mailbox unreadMessages={['React', 'Re: React', 'Re:Re: React']}
 ReactDOM.render(<Clock />, document.getElementById('clock'));
 ReactDOM.render(<Toggle />, document.getElementById('toggle'));
 ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<NumberList numbers={[1, 3, 5, 7]} />, document.getElementById('numberList'));
 
 
 // If you want your app to work offline and load faster, you can change
